@@ -1,2 +1,2 @@
-***Thursdays are the worst.
+#Thursdays are the worst.
 
