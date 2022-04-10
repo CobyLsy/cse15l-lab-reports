@@ -14,13 +14,13 @@
 * Look up your [course specific account](https://sdacs.ucsd.edu/~icc/index.php) for CSE 15L, which serves as your hostname for ssh
 * Open terminal in VSCode, and type in `cs15lsp22zz@ieng6.ucsd.edu`, where `zz` is replaced by letters specific to your course specific account.
 * After typing this, you will be prompted with messages like: 
-```
-The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+
+`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting
-(yes/no/[fingerprint])?
-```
+(yes/no/[fingerprint])?`
+
 * Seeing this message, you can simply type in "yes" and press enter. Then, if you type in your passwords for your course specific account correctly, your login to the server should be successful. Successful login should prompt you with messages like this:
 ![Image](Successful_Login.png)
 
