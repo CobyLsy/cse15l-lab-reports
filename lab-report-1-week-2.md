@@ -15,7 +15,7 @@
 * Open terminal in VSCode, and type in `cs15lsp22zz@ieng6.ucsd.edu`, where `zz` is replaced by letters specific to your course specific account.
 * After typing this, you will be prompted with messages like: 
 ```
-The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+# The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 
 RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
