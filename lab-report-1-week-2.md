@@ -14,14 +14,15 @@
 * Look up your [course specific account](https://sdacs.ucsd.edu/~icc/index.php) for CSE 15L, which serves as your hostname for ssh
 * Open terminal in VSCode, and type in `cs15lsp22zz@ieng6.ucsd.edu`, where `zz` is replaced by letters specific to your course specific account.
 * After typing this, you will be prompted with messages like: 
-
-`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 
 RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
-Are you sure you want to continue connecting
-(yes/no/[fingerprint])?`
+Are you sure you want to continue connecting?
+(yes/no/[fingerprint])
+```
 
 * Seeing this message, you can simply type in "yes" and press enter. Then, if you type in your passwords for your course specific account correctly, your login to the server should be successful. Successful login should prompt you with messages like this:
 ![Image](Successful_Login.png)
@@ -53,11 +54,16 @@ Enter passphrase (empty for no passphrase):
 * If you are a window user, follow the extra `ssh-add` steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 * To use the key, we also need to copy the public key stored on local from the keygen step earlier onto the `.ssh` directory of your user account on the server:
 1. create the directory **on server** using ` mkdir .ssh`
-2. **on client**, type `scp /Users/<user-name>/.ssh/id_rsa.pub
-cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+2. **on client**, type 
+```
+scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
 3. After these two steps, you can ssh or scp from the client to the server without entering the password:![Image](SSH_key.png) (As I mentioned before, normally you don't need the passphrase either if you haven't set the passphrase in the first place. Mine demonstration shows the case when a passphrase is set up - no password is needed but a passphrase is needed)
 
 ## Optimizing Remote Running
 Several tips listed below to make your experience easier:
-1. type in command in quotes in the same line of an `ssh` command to directly run in on the remote server. e.g. `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+1. type in command in quotes in the same line of an `ssh` command to directly run in on the remote server. e.g. 
+```
+$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
+```
 2. Use semicolons inbetween multiple commands on the same line to run all of them using one line, at the same time: ![Image](semicolon.png)
