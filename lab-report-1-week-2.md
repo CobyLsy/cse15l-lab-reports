@@ -16,10 +16,8 @@
 * After typing this, you will be prompted with messages like: 
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-
 RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-
 Are you sure you want to continue connecting?
 (yes/no/[fingerprint])
 ```
@@ -43,7 +41,7 @@ scp file.java cs15lsp22zz@ieng6.ucsd.edu:~/
 ## Setting an SSH Key
 * setting up the SSH key by utilizing the ssh-keygen command, and the key part for me was to type in the right file directory to save the key. An example of a set up;
 ```
-# on client (your computer)
+on client (your computer)
 $ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key
