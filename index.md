@@ -2,3 +2,4 @@
 ## Coby Lin
 1. [Lab Report 1 - Week 1-2](https://cobylsy.github.io/cse15l-lab-reports/Lab-report-1/lab-report-1-week-2.html)
 2. [Lab Report 2 - Week 3-4](https://cobylsy.github.io/cse15l-lab-reports/Lab-report-2/lab-report-2.html)
+3. [Lab Report 3 - Week 5-6](https://copylsy.github.io/cse15l-lab-reports/Lab-report-2/lab-report-3-week-5-6.html)
