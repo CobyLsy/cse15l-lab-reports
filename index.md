@@ -4,3 +4,4 @@
 2. [Lab Report 2 - Week 3-4](https://cobylsy.github.io/cse15l-lab-reports/Lab-report-2/lab-report-2.html)
 3. [Lab Report 3 - Week 5-6](https://cobylsy.github.io/cse15l-lab-reports/Lab-report-3/lab-report-3.html)
 4. [Lab Report 4 - Week 7-8](https://cobylsy.github.io/cse15l-lab-reports/Lab-report-4/lab-report-4.html)
+5. [Lab Report 5 - Week 9-10](https://cobylsy.github.io/cse15l-lab-reports/Lab-report-5/lab-report-5.html)
