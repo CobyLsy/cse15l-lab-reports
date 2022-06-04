@@ -4,7 +4,7 @@
 > **B03 Group 4**
 
 ## Using `vimdiff` to find the difference 
-* After getting two `results.txt` files from running the textfile folder on my own `MarkdownParse.java` and the provided``MarkdownParse.java`, we can use `vimdiff` command on the two files to find the difference between them. Use the command:
+* After getting two `results.txt` files from running the textfile folder on my own `MarkdownParse.java` and the provided`MarkdownParse.java`, we can use `vimdiff` command on the two files to find the difference between them. Use the command:
 ```
 vimdiff my-markdown-parser/results.txt
 cse15lsp22-markdown-parser/results.txt
